@@ -7,9 +7,9 @@
 # For $reasons I cannot install arpspoof from the dsniff suite in certain
 # scenarios, however I do have access to scapy, thus this is my quick work
 # around for that.  There is no input validation beyond there being the correct
-# args, there are no checks that the mac address is right or that the IP's make
-# sense.  They are just fed straight to scapy, use at your own peril....
-# Enjoy!
+# number of args, there are no checks that the mac address is right or that the
+# IP's make sense.  They are just fed straight to scapy, use at your own
+# peril.... Enjoy!
 
 from scapy.all import *
 import time
